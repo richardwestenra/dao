@@ -45,7 +45,7 @@
 					<h1 class="title">Good is better than perfect</h1>
 					<h5>A Dao of Web Development</h5>
 					<br>
-					<p>by <a href="http://richardwestenra.com">Richard Westenra</a></p>
+					<p><a href="http://richardwestenra.com">Richard Westenra</a></p>
 					<p>
 						<small><a href="http://twitter.com/richardwestenra">twitter.com/richardwestenra</a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="http://github.com/richardwestenra">github.com/richardwestenra</a></small>
 					</p>
@@ -99,24 +99,24 @@
 				</section>
 
 				<section>
-					<p>Developers had to take account of different</p>
+					<h3>The web is a flexible medium</h3>
 					<ul>
-						<li>Screen resolution &amp; DPI</li>
-						<li>Brightness &amp; contrast</li>
-						<li>System fonts</li>
-						<li>Default font-sizes</li>
-						<li>Browser rendering</li>
+						<li>Different screen sizes &amp; resolutions</li>
+						<li>Different colours, brightness &amp; contrast</li>
+						<li>Different system fonts</li>
+						<li>Custom default font-sizes</li>
+						<li>Different browser rendering</li>
 						<li>Competing web standards</li>
+						<li>etc.</li>
 					</ul>
-					<p>etc.</p>
 					<aside class="notes">
 						<p>Web page might look completely different from one computer to the next.</p>
 						<p>Print designers hated this chaos, they wanted pixel perfect control.</p>
 					</aside>
 				</section>
 
-				<section>
-					<h2>Enter the Dao</h2>
+				<section data-background="img/flow.jpg" data-background-position="right top">
+					<h2>Harmony</h2>
 					<blockquote>
 						<p>
 							The best of man is like water,<br>
@@ -125,261 +125,125 @@
 							Where it is in harmony with the Way.
 						</p>
 					</blockquote>
-					<p>Tao Te Ching; 8 Water</p>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
+					<p><em>Tao Te Ching; 8 Water</em></p>
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						<p>What John Allsop argued is <b>the chaos is a strength</b></p>
+						<p>the web's flexibility &amp; ubiquity aren’t bugs, they’re features.</p>
+						<p>Make the web accessible, and allow uses we could not have imagined 15 years ago.</p>
+					</aside>
+				</section>
+
+				<section data-background="img/backtothefuture.jpg" data-background-color="#000000" data-background-size="contain">
+					<aside class="notes">
+						So now it’s 2015. We live in the future!
+					</aside>
+				</section>
+
+				<section data-background="img/car.jpg">
+					<aside class="notes">
+						Self-driving cars! 
+					</aside>
+				</section>
+
+				<section data-background="img/oculusrift.jpg">
+					<aside class="notes">
+						Occulus Rifts!
+					</aside>
+				</section>
+
+				<section data-background="img/bigdog.gif">
+					<aside class="notes">
+						Whatever this is! (Big Dog)
 					</aside>
 				</section>
 
 				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
+					<h1>New tools</h1>
 					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li>Media queries</li>
+						<li>Webfonts</li>
+						<li>Browser prefixes</li>
+						<li>Better web standards</li>
 					</ul>
+					<aside class="notes">
+						<p>On the one hand, we now have fancy new toys to help give us more control.</p>
+					</aside>
 				</section>
 
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
+				<section data-background="img/devices.gif" data-background-size="contain">
+					<h1>Old problems</h1>
+					<aside class="notes">
+						<p>Dozens of browsers and hundreds of versions running on thousands of devices.</p>
+						<p>We’ve all got smartphones in our pockets, and tablets, and phablets, and smart watches,</p>
+					</aside>
 				</section>
+
+				<section data-background="img/glass.jpg" data-background-size="contain">
+					<h4>New tools?</h4>
+					<aside class="notes">
+						 and you can even browse the web on your glasses if you don't mind looking like a tool.
+					</aside>
+				</section>
+
+				<section>
+					<h1>Perfection<br> is hard</h1>
+					<aside class="notes">
+						We now have great power, but we still don't have control
+					</aside>
+				</section>
+
+				<section>
+					<h2>The Law of Diminishing Returns</h2>
+					<aside class="notes">
+						<p>Economic principle: Loosely states that <b>as you invest more towards a goal, you get less return on each unit invested</b>.</p>
+					</aside>
+				</section>
+
+				<section data-background="img/diminishingreturns.svg" data-background-size="contain">
+					<aside class="notes">
+						<p>80/20 rule: I tend to find that takes me about 20% of my time to complete 80% of a project, and completing the last fifth takes 80% of the effort.</p>
+						<p>"the gain is not worth the pain."</p>
+					</aside>
+				</section>
+
+				<section>
+					<h1>Cost-benefit calculations</h1>
+					<aside class="notes">
+						<ul>
+							<li>How necessary is the work?</li>
+							<li>How many users? (CanIUse / Analytics)</li>
+							<li>How crucial? Will anyone die? Government, medical, Apple etc.</li>
+							<li>What is the opportunity cost?</li>
+							<li></li>
+						</ul>
+					</aside>
+				</section>
+
+				<section data-background="img/clouds.jpg" data-background-position="center bottom">
+					<h1>Know when to let it go</h1>
+				</section>
+
+				<section>
+					<section style="text-align: left;">
+						<h1>THE END</h1>
+						<br>
+						<p>btw we're hiring! See <a href="https://www.distilled.net/jobs/">distilled.net/jobs</a></p>
+					</section>
+					<section data-background="img/portfolio.jpg">
+						<aside class="notes">
+							hurry! we make cool stuff, best place for the best people to work.
+						</aside>
+					</section>
+					<section>
+						<img class="no-bg" src="img/distilled960.png" alt="Distilled Logo" width="" height="" />
+						<br>
+						<br>
+						<p>See <a href="https://www.distilled.net/jobs/">distilled.net/jobs</a></p>
+					</section>
+				</section>
+
+
+
 
 			</div>
 

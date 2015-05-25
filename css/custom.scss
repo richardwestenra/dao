@@ -4,10 +4,33 @@
 	h1 {
 		font-size: 3em;
 	}
+	.title-big {
+		font-size: 4em;
+	}
 	a {
 		color: #dd5567;
 		&:hover {
 			color: mix(#dd5567,white,70%);
 		}
+	}
+	blockquote {
+		background: rgba(#000,0.3);
+		p {
+			line-height: 1.7em;
+			text-align: left;
+			margin: 0.5em 0.8em;
+			font-style: normal;
+		}
+	}
+	img.no-bg {
+		background: none;
+		border: none;
+		box-shadow: none;
+		max-width: 60%;
+		height: auto;
+		margin-left: 1.8em;
+	}
+	.no-tt {
+		text-transform: none;
 	}
 }

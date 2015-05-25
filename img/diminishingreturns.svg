@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="856.457px" height="500.975px" viewBox="0 0 856.457 500.975" enable-background="new 0 0 856.457 500.975"
+	 xml:space="preserve">
+<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M153.388,409.063
+	c75.334-300,121.334-288,631.333-300"/>
+<line opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="152.388" y1="410.063" x2="152.388" y2="48.063"/>
+<line opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="152.387" y1="410.063" x2="784.721" y2="410.063"/>
+<g>
+	<text transform="matrix(1 0 0 1 711.3887 443.3965)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="30">Effort</text>
+</g>
+<text transform="matrix(1 0 0 1 47.3887 71.3965)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="30">Results</text>
+<g opacity="0.5">
+	<g>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="153.388" y1="112.063" x2="156.388" y2="112.063"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-dasharray="6.0079,3.0039" x1="159.392" y1="112.063" x2="671.563" y2="112.063"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="673.065" y1="112.063" x2="676.065" y2="112.063"/>
+	</g>
+</g>
+<g opacity="0.5">
+	<g>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="676.065" y1="112.063" x2="676.065" y2="115.063"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-dasharray="6.0206,3.0103" x1="676.065" y1="118.073" x2="676.065" y2="405.559"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="676.065" y1="407.063" x2="676.065" y2="410.063"/>
+	</g>
+</g>
+<g opacity="0.5">
+	<g>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="152.388" y1="174.063" x2="155.388" y2="174.063"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-dasharray="5.8559,2.928" x1="158.315" y1="174.063" x2="262.258" y2="174.063"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="263.722" y1="174.063" x2="266.722" y2="174.063"/>
+	</g>
+</g>
+<g opacity="0.5">
+	<g>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="266.722" y1="175.063" x2="266.722" y2="178.063"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-dasharray="6.0263,3.0132" x1="266.722" y1="181.076" x2="266.722" y2="405.557"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="266.722" y1="407.063" x2="266.722" y2="410.063"/>
+	</g>
+</g>
+<circle fill="#DD5567" cx="292.387" cy="157.399" r="7"/>
+<g>
+	<text transform="matrix(1 0 0 1 292.3872 197.0654)" fill="#DD5567" font-family="'MyriadPro-Semibold'" font-size="30">Point of diminishing returns</text>
+</g>
+</svg>
