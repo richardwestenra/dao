@@ -1,0 +1,13 @@
+// Custom CSS to override certain defaults
+
+.reveal {
+	h1 {
+		font-size: 3em;
+	}
+	a {
+		color: #dd5567;
+		&:hover {
+			color: mix(#dd5567,white,70%);
+		}
+	}
+}

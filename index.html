@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Good is Better than Perfect: A Dao of Web Development</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Slides from my lightning talk at Codebar, May 2015">
+		<meta name="author" content="Richard Westenra">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -41,85 +42,90 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1 class="title">Good is better than perfect</h1>
+					<h5>A Dao of Web Development</h5>
+					<br>
+					<p>by <a href="http://richardwestenra.com">Richard Westenra</a></p>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small><a href="http://twitter.com/richardwestenra">twitter.com/richardwestenra</a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="http://github.com/richardwestenra">github.com/richardwestenra</a></small>
 					</p>
+				</section>
+
+				<section data-background="img/ala.png">
+					<aside class="notes">
+						<p>In <em>A List Apart</em>, by John Allsop.</p>
+						<p>Really great, check it out.</p>
+						<p>Written back in 2000,</p>
+					</aside>
+				</section>
+
+				<section data-background="img/darkages.jpg">
+					<h1>The Year 2000</h1>
+
+					<aside class="notes">
+						<p>Before my time, so if I’ve got anything wrong, let me know.</p>
+						<p>2000 was the dark ages of web development</p>
+					</aside>
+				</section>
+
+				<section data-background="img/browserwar.jpg" data-background-size="contain">
+				</section>
+
+				<!-- <section data-background-image="img/browserwars.svg" data-background-color="#f0f0f0" data-background-size="contain">
+				</section> -->
+
+				<section data-background="img/ienetscape.jpg" data-background-size="contain">
+					<aside class="notes">
+						IE 5 crushes Netscape 4.5
+					</aside>
+				</section>
+
+				<section data-background="img/tables.jpg" data-background-size="contain">
+					<aside class="notes">
+						 People were still arguing about whether this newfangled CSS thing would take off.
+					</aside>
+				</section>
+
+
+				<section>
+					<h1>Print Designers</h1>
+					<p>versus</p>
+					<h1>Web Designers</h1>
+					<aside class="notes">
+						<p>Culture war</p>
+						<p>Print designers were used to complete control</p>
+						<p>Pixel perfect control</p>
+					</aside>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+					<p>Developers had to take account of different</p>
+					<ul>
+						<li>Screen resolution &amp; DPI</li>
+						<li>Brightness &amp; contrast</li>
+						<li>System fonts</li>
+						<li>Default font-sizes</li>
+						<li>Browser rendering</li>
+						<li>Competing web standards</li>
+					</ul>
+					<p>etc.</p>
+					<aside class="notes">
+						<p>Web page might look completely different from one computer to the next.</p>
+						<p>Print designers hated this chaos, they wanted pixel perfect control.</p>
+					</aside>
 				</section>
 
 				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
+					<h2>Enter the Dao</h2>
+					<blockquote>
+						<p>
+							The best of man is like water,<br>
+							Which benefits all things, and does not contend with them,<br>
+							Which flows in places that others disdain,<br>
+							Where it is in harmony with the Way.
+						</p>
+					</blockquote>
+					<p>Tao Te Ching; 8 Water</p>
 				</section>
 
 				<section>
