@@ -16,9 +16,15 @@
 .reveal img.no-bg {
   background: none;
   border: none;
-  box-shadow: none;
-  max-width: 60%;
+  box-shadow: none; }
+.reveal .logo {
+  width: 30%;
   height: auto;
-  margin-left: 1.8em; }
+  position: absolute;
+  bottom: -20%;
+  right: 15%;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg); }
 .reveal .no-tt {
   text-transform: none; }
