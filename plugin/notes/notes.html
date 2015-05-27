@@ -31,15 +31,18 @@
 				top: 10px;
 				left: 10px;
 				font-weight: bold;
-				font-size: 14px;
+				font-size: 20px;
 				z-index: 2;
-				color: rgba( 255, 255, 255, 0.9 );
+				color: #fff;
+				background: rgba( 0, 0, 0, 0.5 );
+				text-shadow: 0 0 3px rgba( 0, 0, 0, 0.8 );
+				padding: 0.2em 0.3em;
 			}
 
 			#current-slide {
 				position: absolute;
-				width: 65%;
-				height: 100%;
+				width: 45%;
+				height: 60%;
 				top: 0;
 				left: 0;
 				padding-right: 0;
@@ -47,21 +50,21 @@
 
 			#upcoming-slide {
 				position: absolute;
-				width: 35%;
+				width: 45%;
 				height: 40%;
-				right: 0;
-				top: 0;
+				left: 0;
+				top: 60%;
 			}
 
 			#speaker-controls {
 				position: absolute;
-				top: 40%;
+				top: 0;
 				right: 0;
-				width: 35%;
-				height: 60%;
+				width: 50%;
+				height: 100%;
 				overflow: auto;
-
-				font-size: 18px;
+				font-size: 20px;
+				line-height: 1.3em;
 			}
 
 				.speaker-controls-time.hidden,
@@ -152,7 +155,7 @@
 
 	<body>
 
-		<div id="current-slide"></div>
+		<div id="current-slide"><span class="label">CURRENT:</span></div>
 		<div id="upcoming-slide"><span class="label">UPCOMING:</span></div>
 		<div id="speaker-controls">
 			<div class="speaker-controls-time">
