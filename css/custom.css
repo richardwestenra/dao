@@ -28,3 +28,13 @@
           transform: rotate(-3deg); }
 .reveal .no-tt {
   text-transform: none; }
+.reveal .ala {
+  margin: 15em 0 0; }
+  .reveal .ala a {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #dd5567;
+    padding: 0.3em 1em 0.4em;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: none; }

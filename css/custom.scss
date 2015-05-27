@@ -1,5 +1,5 @@
 // Custom CSS to override certain defaults
-
+$c_blood: #dd5567;
 .reveal {
 	h1 {
 		font-size: 3em;
@@ -8,9 +8,9 @@
 		font-size: 4em;
 	}
 	a {
-		color: #dd5567;
+		color: $c_blood;
 		&:hover {
-			color: mix(#dd5567,white,70%);
+			color: mix($c_blood,white,70%);
 		}
 	}
 	blockquote {
@@ -37,5 +37,17 @@
 	}
 	.no-tt {
 		text-transform: none;
+	}
+	.ala {
+		margin: 15em 0 0;
+		a {
+			display: inline-block;
+			background: rgba(#fff,0.9);
+			border: 2px solid $c_blood;
+			padding: 0.3em 1em 0.4em;
+			border-radius: 5px;
+			font-weight: bold;
+			text-shadow: none;
+		}
 	}
 }
